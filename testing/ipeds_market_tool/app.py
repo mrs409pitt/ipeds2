@@ -105,7 +105,7 @@ def render_data_loader():
     
     with col1:
         st.markdown("### Data Configuration")
-        data_dir = st.text_input("Data Directory Path", value="/mnt/project",
+        data_dir = st.text_input("Data Directory Path", value="data",
                                  help="Path to folder containing IPEDS CSV files")
         
         st.markdown("#### Geographic Data (Optional)")
