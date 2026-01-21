@@ -1504,10 +1504,10 @@
             try {
                 // Load all CSV files
                 const [hdData, drvefData, costData, completionsData] = await Promise.all([
-                    loadCSV('hd2024.csv'),
-                    loadCSV('drvef2024.csv'),
-                    loadCSV('cost1_2024.csv'),
-                    loadCSV('c2024_b.csv')
+                    loadCSV('universities.csv'),
+                    loadCSV('enrollment.csv'),
+                    loadCSV('costs.csv'),
+                    loadCSV('completions.csv')
                 ]);
 
                 // Create lookup maps
